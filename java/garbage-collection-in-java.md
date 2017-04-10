@@ -1,6 +1,10 @@
 Java中的垃圾回收
 
->翻译原文 => [Java Garbage Collection handbook](https://plumbr.eu/handbook/garbage-collection-in-java)
+>翻译原文 => [plumbr Java GC handbook](https://plumbr.eu/handbook/garbage-collection-in-java)
+
+前文参见：
+>[Java垃圾回收手册(一)：初识垃圾回收](http://www.jianshu.com/p/80fd72f48267)
+
 
 对标记删除垃圾回收算法的介绍更多还是偏理论性质的。实践中，为了更好地满足现实的场景及需求，还需要对算法进行大量的调整。举个简单的例子，我们来看下JVM需要记录哪些信息才能让我们得以安全地继续分配对象空间。
 

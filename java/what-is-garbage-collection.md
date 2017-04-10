@@ -1,6 +1,6 @@
 初识垃圾回收
 
->翻译原文 => [Java Garbage Collection handbook](https://plumbr.eu/handbook/what-is-garbage-collection)
+>翻译原文 => [plumbr Java GC handbook](https://plumbr.eu/handbook/what-is-garbage-collection)
 
 乍一看，垃圾回收所做的事情应当恰如其名——查找并清除垃圾。事实上却恰恰相反。垃圾回收是用来跟踪所有仍在使用的对象，然后将剩余的对象标记为垃圾。牢记了这点之后，我们再来更加深入地了解下这个被称为“垃圾回收”的自动化内存回收在Java虚拟机中到底是如何实现的。
 

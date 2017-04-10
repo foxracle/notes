@@ -1,6 +1,11 @@
 垃圾回收算法基础
 
->翻译原文 => [Java Garbage Collection handbook](https://plumbr.eu/handbook/garbage-collection-algorithms)
+>翻译原文 => [plumbr Java GC handbook](https://plumbr.eu/handbook/garbage-collection-algorithms)
+
+前文参见：
+>[Java垃圾回收手册(一)：初识垃圾回收](http://www.jianshu.com/p/80fd72f48267)
+>[Java垃圾回收手册(二)：Java中的垃圾回收](http://www.jianshu.com/p/4d8be1f3ad51)
+
 
 在深入GC算法的实现细节之前，我们最好先来了解下相关术语及背后的基本原理。不同回收器的实现细节各有不同，但总的来说基本所有的回收器都会关注如下两个方面：
 
